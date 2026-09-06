@@ -1,26 +1,78 @@
 @import "tailwindcss";
 
+@theme {
+  --color-bg-main: #0B0D12;
+  --color-bg-card: #151821;
+  --color-bg-secondary: #1C202B;
+  --color-accent: #7C3AED;
+  --color-accent-hover: #6D28D9;
+  --color-text-main: #FFFFFF;
+  --color-text-muted: #9CA3AF;
+  --color-netflix-red: #E50914;
+  --color-youtube-red: #FF0000;
+  --color-discord-green: #22C55E;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0B0D12;
+  --foreground: #FFFFFF;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0B0D12;
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom modern dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0D12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C202B;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
+
+/* Glassmorphism helpers */
+.glass-panel {
+  background: rgba(21, 24, 33, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-dropdown {
+  background: rgba(28, 32, 43, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+/* Voice Speaking Animation Glow */
+@keyframes pulse-speak {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.speaking-ring {
+  animation: pulse-speak 1.5s infinite cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #22C55E !important;
 }
