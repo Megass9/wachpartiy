@@ -4,25 +4,25 @@ import { CatalogItem } from '@/types';
 export const YOUTUBE_PRESETS: CatalogItem[] = [
   {
     id: 'yt-1',
-    title: 'Big Buck Bunny 4K (Açık Kaynak Sinema)',
-    category: 'Animasyon & 4K',
-    duration: '9:56',
-    thumbnail: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop',
-    videoId: 'aqz-KE-bpKQ',
-    description: 'Blender Vakfı tarafından üretilen efsanevi açık kaynak animasyon filmi. Yüksek kalite ve akıcı görsel şölen.',
-    rating: '98%',
-    year: '2026',
-    tags: ['Animasyon', '4K', 'Film']
+    title: 'Grand Theft Auto VI - Resmi Fragman 1',
+    category: 'Oyun & Trend',
+    duration: '1:31',
+    thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop',
+    videoId: 'QdBZY2fkU-0',
+    description: 'Rockstar Games efsanesi Vice City sokaklarına geri dönüyor. Lucia ve Jason ile rekor kıran ilk fragman.',
+    rating: '99%',
+    year: '2025',
+    tags: ['GTA 6', 'Gaming', 'Rockstar', 'Trend']
   },
   {
     id: 'yt-2',
-    title: 'Big Buck Bunny 4K (Open Source Cinema)',
+    title: 'Big Buck Bunny 4K (Açık Kaynak Sinema)',
     category: 'Animasyon',
     duration: '9:56',
     thumbnail: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop',
     videoId: 'aqz-KE-bpKQ',
     description: 'Blender Vakfı tarafından üretilen efsanevi açık kaynak animasyon filmi. Yüksek kalite ve akıcı görsel şölen.',
-    rating: '94%',
+    rating: '98%',
     year: '2024',
     tags: ['Animasyon', '4K', 'Film']
   },
@@ -40,30 +40,6 @@ export const YOUTUBE_PRESETS: CatalogItem[] = [
   },
   {
     id: 'yt-4',
-    title: 'Cyberpunk 2077: Phantom Liberty - Sinematik Fragman',
-    category: 'Oyun',
-    duration: '3:45',
-    thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=800&auto=format&fit=crop',
-    videoId: 'kf9e5A3vF50',
-    description: 'Night City sokaklarında geçen casusluk temalı aksiyon gerilim. Idris Elba başrolde.',
-    rating: '96%',
-    year: '2025',
-    tags: ['Gaming', 'Cyberpunk', 'Aksiyon']
-  },
-  {
-    id: 'yt-5',
-    title: 'Cosmic Journey - 4K Space Relaxation & Ambient',
-    category: 'Doğa & Uzay',
-    duration: '15:30',
-    thumbnail: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop',
-    videoId: '17uU10Q7iG0',
-    description: 'Evrenin derinliklerine büyüleyici bir seyahat. Gezegenler, bulutsular ve yıldızlar.',
-    rating: '97%',
-    year: '2026',
-    tags: ['Uzay', '4K', 'Ambient']
-  },
-  {
-    id: 'yt-6',
     title: 'Dune: Part Two - Resmi Fragman',
     category: 'Fragman',
     duration: '2:50',
@@ -73,6 +49,30 @@ export const YOUTUBE_PRESETS: CatalogItem[] = [
     rating: '98%',
     year: '2024',
     tags: ['Dune', 'Epic', 'Sinema']
+  },
+  {
+    id: 'yt-5',
+    title: 'Cyberpunk 2077: Phantom Liberty - Sinematik Fragman',
+    category: 'Oyun',
+    duration: '3:45',
+    thumbnail: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop',
+    videoId: 'kf9e5A3vF50',
+    description: 'Night City sokaklarında geçen casusluk temalı aksiyon gerilim. Idris Elba başrolde.',
+    rating: '96%',
+    year: '2025',
+    tags: ['Gaming', 'Cyberpunk', 'Aksiyon']
+  },
+  {
+    id: 'yt-6',
+    title: 'Cosmic Journey - 4K Space Relaxation & Ambient',
+    category: 'Doğa & Uzay',
+    duration: '15:30',
+    thumbnail: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?q=80&w=800&auto=format&fit=crop',
+    videoId: '17uU10Q7iG0',
+    description: 'Evrenin derinliklerine büyüleyici bir seyahat. Gezegenler, bulutsular ve yıldızlar.',
+    rating: '97%',
+    year: '2026',
+    tags: ['Uzay', '4K', 'Ambient']
   }
 ];
 
