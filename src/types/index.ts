@@ -83,4 +83,5 @@ export interface CatalogItem {
   year?: string;
   tags?: string[];
   bannerUrl?: string;
+  netflixId?: string;
 }

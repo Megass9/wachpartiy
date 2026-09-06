@@ -4,15 +4,15 @@ import { CatalogItem } from '@/types';
 export const YOUTUBE_PRESETS: CatalogItem[] = [
   {
     id: 'yt-1',
-    title: 'Lofi Hip Hop Radio - Beats to Relax/Study to',
-    category: 'Müzik & Canlı',
-    duration: 'Canlı',
-    thumbnail: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop',
-    videoId: 'jfKfPfyJRdk', // lofi girl stream id
-    description: 'Dünyanın en popüler rahatlama ve çalışma müziği yayını. Arkadaşlarınızla sohbet ederken arkada çalmak için mükemmel.',
+    title: 'Big Buck Bunny 4K (Açık Kaynak Sinema)',
+    category: 'Animasyon & 4K',
+    duration: '9:56',
+    thumbnail: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop',
+    videoId: 'aqz-KE-bpKQ',
+    description: 'Blender Vakfı tarafından üretilen efsanevi açık kaynak animasyon filmi. Yüksek kalite ve akıcı görsel şölen.',
     rating: '98%',
     year: '2026',
-    tags: ['Lofi', 'Chill', 'Beats']
+    tags: ['Animasyon', '4K', 'Film']
   },
   {
     id: 'yt-2',
@@ -85,7 +85,8 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     duration: '52 dk',
     thumbnail: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=1200&auto=format&fit=crop',
-    videoId: 'sBEvEcpnG7k', // Official teaser trailer
+    videoId: 'sBEvEcpnG7k',
+    netflixId: '80057281',
     description: 'Hawkins kasabası Upside Down tehdidine karşı son kez bir araya geliyor. Gizem ve dostluk sınırları aşacak.',
     rating: '98% Eşleşme',
     year: '2025',
@@ -99,6 +100,7 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     thumbnail: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop',
     videoId: '2bvx3IVCZr8',
+    netflixId: '70264888',
     description: 'Gelişen yapay zeka ve insan ilişkilerinin karanlık yansımaları. Teknoloji ile insan doğasının tehlikeli dansı.',
     rating: '95% Eşleşme',
     year: '2025',
@@ -112,6 +114,7 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     thumbnail: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=1200&auto=format&fit=crop',
     videoId: 'fXmAurh012s',
+    netflixId: '81436901',
     description: 'Piltover ve Zaun arasındaki gerilimde iki kız kardeş, zıt saflarda karşı karşıya gelir.',
     rating: '99% Eşleşme',
     year: '2024',
@@ -125,6 +128,7 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     thumbnail: 'https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1200&auto=format&fit=crop',
     videoId: 'YJP3DbgJb2Y',
+    netflixId: '81483052',
     description: 'Geralt of Rivia öncesinde ilk Cadı\'nın ortaya çıkışı ve Kürelerin Birleşimi\'nin başlangıç efsanesi.',
     rating: '91% Eşleşme',
     year: '2024',
@@ -138,6 +142,7 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=1200&auto=format&fit=crop',
     videoId: 'l1vP1vG3E30',
+    netflixId: '81040344',
     description: 'Gi-hun oyunu sona erdirmek için geri dönüyor. Yeni ölümcül oyunlar ve amansız hayatta kalma mücadelesi.',
     rating: '97% Eşleşme',
     year: '2025',
@@ -151,6 +156,7 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
     thumbnail: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?q=80&w=800&auto=format&fit=crop',
     bannerUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop',
     videoId: 'JtqIas3bYhg',
+    netflixId: '81054853',
     description: 'Her şeyini kaybeden bir sokak çocuğu, paralı bir kanun kaçağı (edgerunner) olarak hayatta kalmaya karar verir.',
     rating: '98% Eşleşme',
     year: '2024',
@@ -162,14 +168,14 @@ export const NETFLIX_CATALOG: CatalogItem[] = [
 export const SAMPLE_ROOMS = [
   {
     id: 'room-lofi-chill',
-    name: 'Lofi Chill & Çalışma Odası',
-    description: 'Sessizce çalışmak, kod yazmak veya dinlenmek isteyenler için 7/24 lofi müzik.',
+    name: 'Açık Kaynak Sinema Odası',
+    description: '4K film ve sinema içeriklerini birlikte senkronize izleyip sesli konuşuyoruz.',
     owner_id: 'user-alper',
     is_private: false,
     is_locked: false,
     max_users: 15,
     app_type: 'youtube' as const,
-    video_id: 'jfKfPfyJRdk',
+    video_id: 'aqz-KE-bpKQ',
     created_at: new Date(Date.now() - 3600000).toISOString(),
     owner: {
       id: 'user-alper',

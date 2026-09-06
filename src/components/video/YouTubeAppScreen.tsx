@@ -121,6 +121,12 @@ export function YouTubeAppScreen({
               onPlayStateChange(false);
             }
           },
+          onError: (event: any) => {
+            console.warn('YouTube Player Error:', event.data);
+            if (videoId !== 'aqz-KE-bpKQ') {
+              handleSelectVideo('aqz-KE-bpKQ', 'Açık Kaynak 4K Sinema (Yedek)');
+            }
+          },
         },
       });
     };

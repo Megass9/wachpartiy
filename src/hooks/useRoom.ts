@@ -81,7 +81,7 @@ export function useRoom(roomId?: string, currentUser?: UserProfile | null) {
           is_locked: false,
           max_users: 10,
           app_type: 'youtube',
-          video_id: 'jfKfPfyJRdk',
+          video_id: 'aqz-KE-bpKQ',
           created_at: new Date().toISOString(),
           owner: currentUser || {
             id: 'guest-owner',

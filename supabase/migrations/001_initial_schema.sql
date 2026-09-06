@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS public.rooms (
   max_users INTEGER DEFAULT 10 NOT NULL,
   app_type TEXT DEFAULT 'youtube' NOT NULL, -- 'youtube', 'netflix', 'screenshare'
   video_url TEXT,
-  video_id TEXT DEFAULT 'jfKfPfyJRdk',
+  video_id TEXT DEFAULT 'aqz-KE-bpKQ',
   created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 
@@ -113,7 +113,7 @@ CREATE TABLE IF NOT EXISTS public.room_video_state (
   is_playing BOOLEAN DEFAULT false NOT NULL,
   "current_time" FLOAT DEFAULT 0 NOT NULL,
   app_type TEXT DEFAULT 'youtube' NOT NULL,
-  video_id TEXT DEFAULT 'jfKfPfyJRdk',
+  video_id TEXT DEFAULT 'aqz-KE-bpKQ',
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 

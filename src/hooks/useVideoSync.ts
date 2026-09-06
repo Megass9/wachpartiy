@@ -16,7 +16,7 @@ export function useVideoSync({
   roomId,
   isOwner,
   initialAppType = 'youtube',
-  initialVideoId = 'jfKfPfyJRdk',
+  initialVideoId = 'aqz-KE-bpKQ',
 }: UseVideoSyncProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);

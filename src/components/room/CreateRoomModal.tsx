@@ -33,7 +33,7 @@ export function CreateRoomModal({ isOpen, onClose }: CreateRoomModalProps) {
     setIsSubmitting(true);
 
     const roomId = 'room-' + Math.random().toString(36).substring(2, 9);
-    const defaultVideoId = appType === 'netflix' ? 'sBEvEcpnG7k' : 'jfKfPfyJRdk';
+    const defaultVideoId = appType === 'netflix' ? 'sBEvEcpnG7k' : 'aqz-KE-bpKQ';
 
     const newRoom: Room = {
       id: roomId,

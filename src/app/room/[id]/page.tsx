@@ -65,7 +65,7 @@ export default function RoomPage({ params }: { params: Promise<{ id: string }> }
     roomId,
     isOwner,
     initialAppType: room?.app_type || 'youtube',
-    initialVideoId: room?.video_id || 'jfKfPfyJRdk',
+    initialVideoId: room?.video_id || 'aqz-KE-bpKQ',
   });
 
   // Current user's voice presence representation
